@@ -20,7 +20,6 @@ public class MarkupService {
                 break;
         }
 
-        // Apply markup logic for buying and selling
         return order.getDirection().equalsIgnoreCase("B") ? markup : -markup;
     }
 }

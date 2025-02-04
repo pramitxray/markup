@@ -17,24 +17,8 @@ public class Order {
         this.marketRate = marketRate;
     }
 
-    // ✅ Fix: Add the missing getId() method
-    public String getId() {
-        return id;
-    }
-
-    public String getCustomerId() {
-        return customerId;
-    }
-
-    public String getDirection() {
-        return direction;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public double getMarketRate() {
-        return marketRate;
-    }
+    public String getCustomerId() { return customerId; }
+    public String getDirection() { return direction; }
+    public int getQuantity() { return quantity; }
+    public double getMarketRate() { return marketRate; }
 }
